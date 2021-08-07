@@ -1,0 +1,32 @@
+rootProject.name = 'cloud-platform'
+
+include 'cloud-platform-core'
+
+include 'cloud-platform-eurake'
+include 'cloud-platform-gateway'
+include 'cloud-platform-code'
+include 'cloud-platform-common'
+
+include 'cloud-platform-common:cloud-platform-common-client'
+include 'cloud-platform-common:cloud-platform-common-controller'
+
+include 'cloud-platform-basic'
+include 'cloud-platform-basic:cloud-platform-basic-client'
+include 'cloud-platform-basic:cloud-platform-basic-service'
+include 'cloud-platform-basic:cloud-platform-basic-controller'
+include 'cloud-platform-basic:cloud-platform-basic-dao'
+
+
+include 'cloud-platform-auth'
+include 'cloud-platform-auth:cloud-platform-auth-client'
+include 'cloud-platform-auth:cloud-platform-auth-service'
+include 'cloud-platform-auth:cloud-platform-auth-controller'
+include 'cloud-platform-auth:cloud-platform-auth-dao'
+
+include 'cloud-platform-configure'
+include 'cloud-platform-configure:cloud-platform-configure-client'
+include 'cloud-platform-configure:cloud-platform-configure-controller'
+include 'cloud-platform-configure:cloud-platform-configure-service'
+include 'cloud-platform-configure:cloud-platform-configure-dao'
+include 'cloud-platform-configure:cloud-platform-configure-client'
+
